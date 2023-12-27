@@ -1,0 +1,215 @@
+body{
+     background-color: rgb(67, 143, 179);  
+     margin: 0%; 
+     padding: 0%;
+     letter-spacing: 1px 
+    }
+
+    /*CAPA DO PORTFÓLIO*/
+
+header{
+         height: 90px;
+         background-color: rgb(45, 100, 126); 
+        }
+
+nav{
+     height: 45px;
+     background-color: rgb(29, 65, 82); 
+    }
+
+img.emoji{
+         width: 10%;
+         height: 100%;
+         border-style:groove;
+         border-radius:50% ;
+         border-color: rgb(115, 141, 160);
+        }
+
+ul.nav{
+     float: right;
+     list-style: none;
+     margin: 0;
+    }   
+
+li{
+     float:right;
+     padding: 10px;
+   
+    }
+
+li a {
+     color:rgba(253, 253, 253, 0.986);
+     display: inline;
+     font-size: 120%;
+     text-decoration: none;
+    }   
+       
+li a:hover{
+             background-color: rgba(175, 164, 13, 0.966);
+            } 
+
+a:link  {
+     color: #f7f4f4;
+    }
+ 
+a:active {
+         color: #0f0f96;
+        }
+
+article{
+         height: 490px;
+         text-align: center;
+         background-color: rgb(99, 183, 216);
+        }
+strong{
+         font-size: 200%;
+         color: rgba(251, 253, 255, 0.966); 
+        }
+   
+section{
+         background-color: rgb(132, 207, 250);
+         height: 200px;
+         }
+
+img.Capa{
+         height: 100%;
+         width: 50%;
+         float:inherit;
+        }
+h2{
+     color:aliceblue;    
+    }
+         
+div.contato{
+             height:90px;
+             float: right;
+             background-color: rgb(45, 100, 126);
+             font-size: 15px; 
+             width: 260px; 
+            }
+
+address{
+        padding: 10px;
+        background-color: rgb(67, 143, 179);
+        height: 50px;
+            } 
+
+div.contato:hover{
+                     background-color: rgba(109, 102, 5, 0.966);
+                    }
+
+div.detalhes{
+             font-family: Garamond;
+             padding: 5px 30px;
+             height: 50px;
+             background-color: rgba(175, 164, 13, 0.966); 
+             color:  rgb(1, 11, 15);
+             border-style:groove;
+            }
+
+footer{
+        height: 20px;
+        text-align: center;
+
+        }
+
+
+    /*PASTA SOBRE MIM*/
+    
+figure{
+         margin: 0%;
+         padding: 0%;
+        }
+
+img.fotopessoal{
+                 height: 96%;
+                 width: 45%;
+                 float: left;
+                 outline-style:groove
+                 }
+    
+section.sobremim{
+                 padding:20px;
+                 height: 90%;
+                 width: 51%;
+                 float: left;
+                 background-color:rgba(87, 83, 83, 0.808); 
+                 color: rgba(252, 244, 244, 0.808)
+                }
+
+h1.Sobremim{
+             border-style:inset;
+             border-color:  rgb(45, 100, 126); 
+            }
+
+P.sobremim{
+             text-indent: 50px;
+             line-height: 1.8;
+             margin-top: 50px;
+             word-spacing: 3px;  
+            }
+
+
+div.cursos{
+             height: 180px;  
+             width: 400px;   
+             margin-top: 100px;
+            }
+
+li.cursos{
+             float: left;
+             list-style:circle;
+        }
+    
+    /*PASTA CONTENDO OS PROJETOS*/
+
+h1.projetos{
+             text-align: center;
+             font-size: 150%;
+             color:rgba(253, 253, 253, 0.986); ;
+            }
+
+section.formulário{
+                     height: 100%;
+                     background-color: blanchedalmond;
+                     margin: 10px 100px;
+                     padding-left: 20px;
+                     border-style: inset;
+                     border-color: aqua;
+                    }
+
+figure.formulario{
+                     background-color:blanchedalmond;;
+                     height: 100px;
+                     width: 90px;
+                    float:right;
+                 }
+
+img.formulário{
+                 height: 100%;
+                }
+                
+    /*ADICIONAIS*/
+
+header.Adicionais{
+                 text-align: center;
+                 height: 110px;
+                }
+.videogif{
+             width: 100px;
+             height:100px;
+             border-style:groove;
+             border-radius:50% ;
+             border-color: rgb(115, 141, 160); 
+             float: left; 
+            }
+section.video1,.video2, .video3{
+
+width: 300px;
+float: left;
+margin: 20px;
+}
+video .iframe{
+   width: 40%;
+   height:60%;
+}
