@@ -90,7 +90,7 @@ div.contato{
 
 address{
         padding: 10px;
-        background-color: rgb(67, 143, 179);
+        background-image: linear-gradient(rgba(255,0,0,0), rgb(255, 166, 1));
         height: 50px;
             } 
 
