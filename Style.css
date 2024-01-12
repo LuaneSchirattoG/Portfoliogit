@@ -101,7 +101,7 @@ div.contato:hover{
 div.detalhes{
              font-family: Garamond;
              padding: 5px 30px;
-             height: 50px;
+             height: 20%;
              background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(168, 170, 54)); 
              color:  rgb(1, 11, 15);
              border-style:groove;
@@ -115,51 +115,55 @@ footer{
 
 
     /*PASTA SOBRE MIM*/
-    
-figure{
-         margin: 0%;
-         padding: 0%;
-        }
 
-img.fotopessoal{
-                 height: 96%;
-                 width: 45%;
+.fotopessoal{
+                 height: 100%;
+                 width: 100%;
                  float: left;
-                 outline-style:groove
+                 margin: 0%;
+                 padding: 0%;
                  }
     
-section.sobremim{
-                 padding:20px;
-                 height: 90%;
-                 width: 51%;
+.sobremim{
+                
+                 height: 100%;
+                 width: 100%;
                  float: left;
                  background-color:rgba(87, 83, 83, 0.808); 
-                 color: rgba(252, 244, 244, 0.808)
+                 color: rgba(252, 244, 244, 0.808);
+                 padding-left: 15px;
                 }
 
-h1.Sobremim{
+.hsm{
              border-style:inset;
              border-color:  rgb(45, 100, 126); 
             }
 
-P.sobremim{
-             text-indent: 50px;
+.psm{
+             text-indent: 5px;
              line-height: 1.8;
-             margin-top: 50px;
+             margin-top: 5px;
              word-spacing: 3px;  
             }
+.usm{
+    height: 120px;
+}
 
 
-div.cursos{
-             height: 180px;  
-             width: 400px;   
-             margin-top: 100px;
+.cursos{ 
+             width: 100%; 
+             height: 100%;
+             float: left;
+             padding-left: 15px;
+             background-image: linear-gradient(rgba(182, 181, 181, 0.808), rgba(68, 64, 64, 0.808));;
             }
 
-li.cursos{
-             float: left;
-             list-style:circle;
-        }
+.flex-container {
+                display: flex;
+                height: 600px;
+               
+              }
+
     
     /*PASTA CONTENDO OS PROJETOS*/
 
