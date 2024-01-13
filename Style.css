@@ -90,7 +90,7 @@ div.contato{
 
 address{
         padding: 10px;
-        background-image: linear-gradient(rgba(255,0,0,0), rgb(255, 166, 1));
+        background-image: linear-gradient(rgba(255,0,0,0), rgb(71, 154, 196));
         height: 50px;
             } 
 
@@ -102,9 +102,11 @@ div.detalhes{
              font-family: Garamond;
              padding: 5px 30px;
              height: 20%;
-             background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(168, 170, 54)); 
-             color:  rgb(1, 11, 15);
+             background-image: linear-gradient( rgba(52, 199, 209, 0), rgb(14, 62, 102)); 
+             color: white;
+             text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
              border-style:groove;
+             text-align: center;
             }
 
 footer{
@@ -174,6 +176,7 @@ h1.projetos{
             }
 section.formulario {
             height: 300px;
+            
 }
     /*ADICIONAIS*/
 
