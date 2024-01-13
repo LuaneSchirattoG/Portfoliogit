@@ -167,8 +167,13 @@ footer{
               }
               .button1 {border-radius: 2px;
                 background-color: rgb(103, 133, 163);
-            
             }
+            em{
+                color:#0f1896
+            }
+    .cur{
+        height: 350px;
+    }
 
     
     /*PASTA CONTENDO OS PROJETOS*/
