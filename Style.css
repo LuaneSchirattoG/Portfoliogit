@@ -1,53 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    }
 body{
-     background-color: rgb(67, 143, 179);  
      margin: 0%; 
      padding: 0%;
-     letter-spacing: 1px 
+     letter-spacing: 1px; 
+     background-color: rgb(67, 143, 179);
     }
-
-    /*CAPA DO PORTFÓLIO*/
-
+/*CAPA DO PORTFÓLIO*/
 header{
-         height: 90px;
+         height:auto;
          background-color: rgb(45, 100, 126); 
         }
-
 nav{
-     height: 45px;
+     overflow: auto;
      background-color: rgb(29, 65, 82); 
     }
+figure{
+    height: 50px;
+    width: 50px;
+}
 
-img.emoji{
-         width: 10%;
+.emoji{
+         width: 100%;
          height: 100%;
          border-style:groove;
          border-radius:50% ;
          border-color: rgb(115, 141, 160);
         }
-
-ul.nav{
+ul,li{
      float: right;
      list-style: none;
      margin: 0;
-    }   
-
-li{
-     float:right;
+     list-style-type: none;
      padding: 10px;
-   
-    }
-
+    }  
 li a {
      color:rgba(253, 253, 253, 0.986);
      display: inline;
-     font-size: 120%;
+     font-size: 100%;
      text-decoration: none;
-    }   
-       
+    }        
 li a:hover{
              background-color: rgba(175, 164, 13, 0.966);
             } 
-
 a:link  {
      color: #f7f4f4;
     }
@@ -57,48 +57,42 @@ a:active {
         }
 
 article{
-         height: 490px;
+         height: 40px;
+         padding-left: 25%;
+         background-color: rgb(67, 143, 179);
+         color:aliceblue; 
+        }
+.imagem{
+         height: 250px;
+         width: 80%;
+         display: block;
          text-align: center;
-         background-color: rgb(99, 183, 216);
-        }
-strong{
-         font-size: 200%;
-         color: rgba(251, 253, 255, 0.966); 
-        }
-   
-section{
-         background-color: rgb(132, 207, 250);
-         height: 230px;
-         }
-
-img.Capa{
-         height: 100%;
-         width: 50%;
-         float:inherit;
-        }
-h2{
-     color:aliceblue;    
-    }
-         
-div.contato{
-             height:90px;
+}       
+.Capa{
+        height: 100%;
+        width: 50%;
+        }    
+.contato{
+             height:100px;
              float: right;
-             background-color: rgb(45, 100, 126);
+             background-color: rgba(109, 102, 5, 0.966);
              font-size: 15px; 
-             width: 260px; 
+             width: 280px;
+             color:aliceblue; 
+             padding-left: 10px;
             }
 
 address{
-        padding: 10px;
         background-image: linear-gradient(rgba(255,0,0,0), rgb(71, 154, 196));
-        height: 50px;
-            } 
+        height: 40px;
+    } 
 
-div.contato:hover{
-                     background-color: rgba(109, 102, 5, 0.966);
-                    }
+.contato:hover{
+    background-color: rgb(45, 100, 126);
+}
 
-div.detalhes{
+.detalhes{
+             margin-top: 150px;
              font-family: Garamond;
              padding: 5px 30px;
              height: 20%;
@@ -114,67 +108,65 @@ footer{
         text-align: center;
 
         }
-
-
     /*PASTA SOBRE MIM*/
-
+.sobre{
+        height: 500px;
+        width: 40%;
+        float: left;
+        margin: 0%;
+        padding: 0%;
+        }
 .fotopessoal{
-                 height: 100%;
-                 width: 100%;
-                 float: left;
-                 margin: 0%;
-                 padding: 0%;
-                 }
-    
-.sobremim{
-                
-                 height: 100%;
-                 width: 100%;
-                 float: left;
-                 background-color:rgba(87, 83, 83, 0.808); 
-                 color: rgba(252, 244, 244, 0.808);
-                 padding-left: 15px;
-                }
-
-.hsm{
-             border-style:inset;
-             border-color:  rgb(45, 100, 126); 
-            }
-
-.psm{
-             text-indent: 5px;
-             line-height: 1.8;
-             margin-top: 5px;
-             word-spacing: 3px;  
-            }
-.usm{
-    height: 120px;
+        height: 100%;
+        width: 100%;
 }
-
-
-.cursos{ 
-             width: 100%; 
-             height: 100%;
-             float: left;
-             padding-left: 15px;
-             background-image: linear-gradient(rgba(182, 181, 181, 0.808), rgba(68, 64, 64, 0.808));;
+.sobremim{
+            height: 500px;
+            width: 40%;
+            float: left;
+            background-color:rgba(87, 83, 83, 0.808); 
+            color: rgba(252, 244, 244, 0.808);
+            padding-left: 15px;
             }
-
-.flex-container {
-                display: flex;
-                height: 600px;
-               
-              }
-              .button1 {border-radius: 2px;
-                background-color: rgb(103, 133, 163);
-            }
-            em{
-                color:#0f1896
-            }
-    .cur{
-        height: 350px;
+.hsm{
+    border-style:inset;
+    border-color:  rgb(45, 100, 126); 
     }
 
+.psm{
+    text-indent: 5px;
+    line-height: 1.8;
+    margin-top: 5px;
+    word-spacing: 3px;  
+    }
+
+.cursos{ 
+        width: 20%; 
+        height: 250px;
+        float: left;
+        padding-left: 15px;
+        background-image: linear-gradient(rgba(182, 181, 181, 0.808), rgba(68, 64, 64, 0.808));;
+            }
+.button1 {
+        border-radius: 2px;
+        background-color: rgb(103, 133, 163);
+            }
+.curr{
+      width: 20%;
+      height: 250px;
+      float: left;
+      padding-left: 15px;
+      background-image: linear-gradient(rgba(182, 181, 181, 0.808), rgba(68, 64, 64, 0.808));;
+}
+em{
+    color:#0f1896
+    }
+
+.baixar{
+    height: 143px;
+    width: 100px;
+}
+   
     
     /*PASTA CONTENDO OS PROJETOS*/
 
