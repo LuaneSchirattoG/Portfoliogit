@@ -110,8 +110,8 @@ footer{
         }
     /*PASTA SOBRE MIM*/
 .sobre{
-        height: 650px;
-        width: 40%;
+        height: 40%;
+        width: 150px;
         float: left;
         margin: 0%;
         padding: 0%;
@@ -121,16 +121,17 @@ footer{
         width: 100%;
 }
 .sobremim{
-            height: 650px;
-            width: 60%;
+            height: 100%;
+            width:100%;
             float: left;
             background-color:rgba(87, 83, 83, 0.808); 
             color: rgba(252, 244, 244, 0.808);
             padding-left: 15px;
+            padding-top: 20px;
             }
 .hsm{
     border-style:inset;
-    border-color:  rgb(45, 100, 126); 
+    border-color:  rgb(45, 100, 126);
     }
 
 .psm{
@@ -139,20 +140,19 @@ footer{
     margin-top: 5px;
     word-spacing: 3px;  
     }
-
 .cursos{ 
-        width: 50%; 
-        height: 230px;
+    width: 40%;
+    float: left;
             }
 .button1 {
         border-radius: 2px;
         background-color: rgb(103, 133, 163);
             }
 .curr{
-      width: 10%;
+      width: 20%;
       height: 230px;
-      position: absolute;
-      background-image: linear-gradient(rgba(182, 181, 181, 0.808), rgba(68, 64, 64, 0.808));;
+      float: left;
+    
 }
 em{
     color:#0f1896
