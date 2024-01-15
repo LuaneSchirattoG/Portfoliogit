@@ -1,0 +1,55 @@
+    /*PASTA SOBRE MIM*/
+.sobre{
+        height: 40%;
+        width: 150px;
+        float: left;
+        margin: 0%;
+        padding: 0%;
+        }
+.fotopessoal{
+        height: 100%;
+        width: 100%;
+}
+.sobremim{
+            height: 100%;
+            width:100%;
+            float: left;
+            background-color:rgba(87, 83, 83, 0.808); 
+            color: rgba(252, 244, 244, 0.808);
+            padding-left: 15px;
+            padding-top: 20px;
+            }
+.hsm{
+    border-style:inset;
+    border-color:  rgb(45, 100, 126);
+    }
+
+.psm{
+    text-indent: 5px;
+    line-height: 1.8;
+    margin-top: 5px;
+    word-spacing: 3px;  
+    }
+.cursos{ 
+    width: 40%;
+    float: left;
+            }
+.button1 {
+        border-radius: 2px;
+        background-color: rgb(103, 133, 163);
+            }
+.curr{
+      width: 20%;
+      height: 230px;
+      float: left;
+
+}
+em{
+    color:#0f1896
+    }
+
+.baixar{
+    height: 143px;
+    width: 100px;
+}
+
