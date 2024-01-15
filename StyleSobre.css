@@ -1,4 +1,7 @@
     /*PASTA SOBRE MIM*/
+.grid-container {
+  display: inline-grid;
+}
 .sobre{
         height: 40%;
         width: 150px;
