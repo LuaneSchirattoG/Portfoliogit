@@ -1,2 +1,0 @@
-randon
-computador =
